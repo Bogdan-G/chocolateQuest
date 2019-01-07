@@ -1,2 +1,2 @@
 # chocolateQuest
-mc.1.7.10
+mc 1.7.10
