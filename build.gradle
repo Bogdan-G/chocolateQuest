@@ -1,6 +1,10 @@
 buildscript {
     repositories {
-        mavenCentral()
+        //mavenCentral()
+        maven { 
+            name = "maven"
+            url = "http://repo.maven.apache.org/maven2"
+        }
         maven {
             name = "forge"
             url = "http://files.minecraftforge.net/maven"
@@ -18,7 +22,7 @@ buildscript {
 apply plugin: 'forge'
 
 version = "1.7.10-1.1d"
-group= "com.emoniph.witchery" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+group= "com.chocolate.chocolateQuest" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "chocolateQuest"
 
 sourceCompatibility = 7
